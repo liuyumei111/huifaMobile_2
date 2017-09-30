@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>惠发科技</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+
+<!--头部-->
+<header>
+    <h1><i></i>惠发科技</h1>
+</header>
+
+<!--主体部分-->
+<div class="content-box">
+    <!-- 轮播图 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner1.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner1.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner1.png" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--全网解决方案-->
+    <div class="solve">
+        <h2>全网解决方案</h2>
+        <ul class="solve-ul">
+            <a href="weixin.html"><li>
+                <img src="images/fangan1.png" alt="">
+                <span>微信小程序开发</span>
+            </li></a>
+            <a href="app.html"><li>
+                <img src="images/fanggan4.png" alt="">
+                <span>APP开发</span>
+            </li></a>
+            <a href="move.html"><li>
+                <img src="images/fangfan3.png" alt="">
+                <span>移动端开发</span>
+            </li></a>
+            <a href="integration.html"><li>
+                <img src="images/fanggan5.png" alt="">
+                <span>全网整合开发</span>
+            </li></a>
+        </ul>
+    </div>
+    <!--定制开发流程-->
+    <div class="flow">
+        <h2>app定制开发服务流程</h2>
+        <div class="liucheng-img">
+            <img src="images/liucheng.png" alt="">
+        </div>
+
+    </div>
+</div>
+
+<!--拨打电话-->
+<div class="compant-tel">
+    <a href="tel:17701241710">17701241710</a>
+    <i></i>
+</div>
+
+<!--在线提交-->
+<div class="tijao">
+    <h2>在线提交</h2>
+    <form action="">
+        <input type="text" placeholder="客户姓名" id="name"><br>
+        <input type="text" placeholder="联系方式" id="tel"><br>
+        <textarea name="" id="conDetail" cols="30" rows="10" placeholder="内容需求"></textarea>
+    </form>
+    <div class="bottom">在线提交</div>
+</div>
+
+<!--js引入-->
+<script src="script/zepto.min.js"></script>
+<script src="script/swiper-3.4.2.min.js"></script>
+<script src="script/config.js"></script>
+<script src="script/index.js"></script>
+<script src='script/public.js'></script>
+</body>
+</html>

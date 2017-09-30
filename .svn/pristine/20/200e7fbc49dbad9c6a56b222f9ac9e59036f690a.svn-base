@@ -1,0 +1,201 @@
+html,
+body {
+  background: #fff;
+}
+header {
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+header h1 {
+  font-size: 18px;
+  color: #141414;
+}
+header h1 i {
+  width: 28px;
+  height: 28px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: -6px;
+  margin-right: 7.5px;
+}
+.content-box .swiper-container {
+  width: 100%;
+  margin: 0px auto;
+}
+.content-box .swiper-container .swiper-slide {
+  text-align: center;
+  font-size: 9px;
+  background: #fff;
+}
+.content-box .swiper-container .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.content-box .solve {
+  width: 100%;
+}
+.content-box .solve h2 {
+  line-height: 50px;
+  text-align: center;
+  font-size: 17px;
+  color: #151410;
+  font-weight: 600;
+}
+.content-box .solve .solve-ul {
+  padding: 15px 6% 20px 6%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-box .solve .solve-ul a {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.content-box .solve .solve-ul a li img {
+  width: 41px;
+  height: 41px;
+  display: block;
+  margin: auto;
+}
+.content-box .solve .solve-ul a li span {
+  font-size: 14px;
+  color: #151410;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+.content-box .flow {
+  width: 100%;
+  height: 250px;
+  background: #eeeeee;
+}
+.content-box .flow h2 {
+  text-align: center;
+  line-height: 55px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.content-box .flow .liucheng-img {
+  width: 92%;
+  height: 195px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+.content-box .flow .liucheng-img img {
+  width: 100%;
+  height: 100%;
+}
+.compant-tel {
+  position: fixed;
+  right: -8px;
+  bottom: 150px;
+  width: 150px;
+  height: 35px;
+  line-height: 35px;
+  background-size: 100% 100%;
+  background: #91c6e1;
+  border-radius: 10px;
+}
+.compant-tel a {
+  color: #fff;
+  font-size: 0.8rem;
+  margin-left: 2.0rem;
+}
+.compant-tel i {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url("../images/tel1.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 8px;
+  left: 5px;
+}
+.tijao {
+  width: 100%;
+}
+.tijao h2 {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 60px;
+}
+.tijao #name,
+.tijao #tel {
+  width: 80%;
+  height: 50px;
+  outline: none;
+  margin-left: 10%;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  background: #f6f6f6;
+  box-shadow: none;
+  border: none;
+  -webkit-appearance: none;
+}
+.tijao #conDetail {
+  width: 80%;
+  height: 100px;
+  outline: none;
+  margin-left: 10%;
+  padding: 10px;
+  background: #f6f6f6;
+  border: none;
+  -webkit-appearance: none;
+}
+.tijao .bottom {
+  width: 80%;
+  margin-left: 10%;
+  line-height: 45px;
+  background: #1296db;
+  border-radius: 7.5px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header {
+  background: #1296db;
+  position: relative;
+}
+.header h1 {
+  color: #ffffff;
+}
+.header span {
+  width: 12.5px;
+  height: 12.5px;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  display: inline-block;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+.app-box {
+  width: 100%;
+  padding: 0 5%;
+  margin-bottom: 20px;
+}
+.app-box .app-ul li .app-img {
+  margin-top: 20px;
+}
+.app-box .app-ul li .app-img img {
+  width: 100%;
+}
+.app-box .app-ul li > h2 {
+  font-size: 16px;
+  color: #060606;
+  font-weight: 600;
+  margin-top: 12.5px;
+  margin-bottom: 10px;
+}
+.app-box .app-ul li > i {
+  width: 25px;
+  height: 2.5px;
+  background: #1296db;
+  display: block;
+}
